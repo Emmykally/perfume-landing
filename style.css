@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/backgroundimg.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+}
+
+
+nav ul li a {
+  display: block;
+  padding: 12px 12px;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+
+.fragrance {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 6rem;
+}
+
+.woman {
+  font-size: 3rem;
+  color: rgb(119, 10, 10);
+}
+
+.container{
+  display: flex;
+  margin-top: 5rem;
+  padding: 0 40px;
+}
+
+.text-container{
+  width: 50%;
+}
+
+.image-box{
+  height: 400px;
+  width: 50%;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 30px;
+  border-color: rgb(119, 10, 10);
+  background-color: rgb(219, 202, 202);
+  color: black;
+  padding: 10px;
+  margin-top: 1.5rem;
+}
+
+.button:hover {
+  background-color: rgb(204, 62, 62);
+}
+
+.fa{
+  margin-right: 7px;
+  margin-top: 10px;
+}
+
+/* @media (max-width: 800px) {
+  body{
+      width: 50%;
+  }
+ }  */
